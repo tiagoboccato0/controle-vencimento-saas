@@ -1,17 +1,17 @@
-  #Sistema de Controle de Vencimento de Produtos
+  # Sistema de Controle de Vencimento de Produtos
 
-#Descrição
+# Descrição
 O Sistema de Controle de Vencimento de Produtos é uma aplicação desenvolvida com o objetivo de auxiliar empresas no gerenciamento de produtos em estoque, permitindo o controle das datas de validade e a identificação de itens próximos do vencimento ou já vencidos.
 
 O sistema busca reduzir desperdícios, evitar prejuízos financeiros e melhorar a organização do estoque.
 
-#Objetivo
+# Objetivo
 Desenvolver um sistema que permita cadastrar, visualizar e monitorar produtos com suas datas de validade, facilitando o controle e a tomada de decisão.
 
-#Problema
+# Problema
 Muitos estabelecimentos realizam o controle de validade de forma manual, o que pode gerar erros, perdas de produtos e até riscos à saúde dos consumidores. Este sistema foi criado para solucionar esse problema de forma simples e eficiente.
 
-#Público-alvo
+# Público-alvo
 - Mercados  
 - Farmácias  
 - Restaurantes  
