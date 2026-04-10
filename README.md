@@ -39,7 +39,8 @@ Muitos estabelecimentos realizam o controle de validade de forma manual, o que p
 ---
 
 ## Integrantes
-- Tiago Boccato Barbosa - RA: 
+- Grupo numero - 
+- Tiago Boccato Barbosa - RA: 1726105234
 - Nome Completo - RA:  
 - Nome Completo - RA:   
 - Nome Completo - RA:  
