@@ -39,8 +39,8 @@ Muitos estabelecimentos realizam o controle de validade de forma manual, o que p
 ---
 
 ## Integrantes
-- Grupo numero - 
+- Grupo numero - 7
 - Tiago Boccato Barbosa - RA: 1726105234
-- Nome Completo - RA:  
+- Jennifer Souza de Oliveira - RA: 926112013  
 - Nome Completo - RA:   
 - Nome Completo - RA:  
