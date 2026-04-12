@@ -48,9 +48,27 @@ Muitos estabelecimentos realizam o controle de validade de forma manual, o que p
 
 - ------------------------------------------------
 
+
+## DEFINIÇÃO DO PROBLEMA E MODELO DE NEGÓCIO
+## 01 - Descrição do problema que o projeto pretende resolver
+
+A dificuldade no controle das datas de validade do estoque leva a prejuízos e perdas. Seria possível contar com uma solução fácil de acompanhar os vencimentos, evitando assim prejuízos.
+
+### Público-alvo e contexto social/comunitário
+O sistema será voltado para:
+Pessoas que desejam organizar melhor sua despensa e geladeira
+Pequenos comércios como mercados de bairro, padarias, mercearias
+Médios e grandes estabelecimentos como supermercados, restaurantes e armazéns 
+
+No contexto social, o projeto ajuda  na redução do desperdício de alimentos, promovendo consumo mais consciente e sustentável. Como projeto de extensão universitária, pode ser aplicado em comunidades locais, ajudando pequenos comercios a melhorar sua gestão e reduzir perdas financeiras
+
+### Modelo de negócios
+
+
+
 ## USER STORYS
 
-##  01 – Cadastro de Usuário
+## 02 – Cadastro de Usuário
 
 ###  História de Usuário
 
