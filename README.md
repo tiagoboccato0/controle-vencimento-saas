@@ -42,8 +42,8 @@ Muitos estabelecimentos realizam o controle de validade de forma manual, o que p
 - Grupo numero - 7
 - Tiago Boccato Barbosa - RA: 1726105234
 - Jennifer Souza de Oliveira - RA: 926112013  
-- Nome Completo - RA:   
-- Nome Completo - RA:
+- Paloma Dalila de Jesus Duarte Amorim Santos - RA: 1726107086
+- Nome Completo - RA: 
 
 - ------------------------------------------------
 
