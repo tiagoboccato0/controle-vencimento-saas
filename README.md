@@ -334,10 +334,274 @@ Manter base de dados limpa e atualizada.
 
 ###  Fluxo Alternativo
 
-1. Clica excluir
-2. Sistema pede confirmação
-3. Cancela
-4. Nada acontece
+
+História de Usuário:   Como usuário, quero visualizar a lista de produtos para acompanhar o estoque. 
+
+Descrição: 
+ 
+Permite ao usuário visualizar a lista de produtos e suas quantidades em estoque para facilitar o controle. 
+
+Objetivo: 
+Permitir que o usuário acompanhe de forma rápida e eficiente a situação do estoque, visualizando todos os produtos e suas respectivas quantidades, a fim de facilitar o controle, evitar faltas ou excessos e apoiar a tomada de decisões relacionadas à reposição e gestão de produtos. 
 
 
+Critérios de aceitação: 
+
+O sistema deve exibir uma lista com todos os produtos cadastrados  
+
+Cada produto deve mostrar: nome, quantidade em estoque e status (ex: disponível, baixo estoque, esgotado)  
+
+A lista deve permitir ordenação (por nome ou quantidade)  
+
+Deve ser possível buscar um produto pelo nome  
+
+A listagem deve atualizar conforme alterações no estoque 
+
+
+Regras de Negócio: 
+
+O sistema deve exibir todos os produtos cadastrados  
+
+Cada produto deve mostrar nome, quantidade e status do estoque  
+
+O status deve ser:  
+
+Disponível (quantidade normal)  
+
+Baixo estoque (quantidade baixa)  
+
+Esgotado (quantidade zero)  
+
+Os dados devem estar sempre atualizados  
+
+Deve ser possível buscar e ordenar os produtos 
+
+ 
+Casos de Erro:  
+
+             Erro ao carregar produtos → mostrar mensagem de erro  
+
+Nenhum produto cadastrado → mostrar lista vazia  
+
+Erro na busca → informar falha ao usuário  
+
+Usuário sem acesso → bloquear acesso 
+
+
+Fluxo Principal: 
+
+O usuário acessa a tela de produtos  
+
+O sistema carrega a lista de produtos  
+
+O sistema exibe nome, quantidade e status de cada produto  
+
+O usuário pode buscar ou ordenar os produtos  
+
+O sistema atualiza a lista conforme a ação do usuário  
+
+
+Fluxo Alternativo: 
+
+Lista vazia  
+
+Se não houver produtos, o sistema exibe mensagem de lista vazia  
+
+Erro ao carregar dados  
+
+Se ocorrer falha, o sistema exibe mensagem de erro  
+
+Busca sem resultado  
+
+Se a busca não encontrar produtos, o sistema informa “nenhum resultado encontrado”  
+
+Usuário sem permissão  
+
+O sistema bloqueia o acesso e exibe mensagem de “acesso negado”
+
+
+
+História de Usuário:  Como usuário, quero ver produtos próximos do vencimento para evitar perdas. 
+
+Descrição : 
+
+ Permite ao usuário visualizar produtos que estão próximos do vencimento para facilitar o controle e evitar desperdícios 
+ 
+
+Objetivo: 
+
+Ajudar o usuário a identificar produtos que precisam ser utilizados ou vendidos com prioridade. 
+
+
+Regras de Negócio : 
+
+O sistema deve exibir produtos com data de vencimento próxima  
+
+O critério de “próximo do vencimento” deve ser definido (ex: próximos 7 dias)  
+
+Cada produto deve mostrar nome, data de vencimento e quantidade  
+
+A lista deve estar sempre atualizada 
+
+
+Casos de Erro : 
+
+Erro ao carregar produtos → mostrar mensagem de erro  
+
+Nenhum produto próximo do vencimento → informar ao usuário  
+
+Dados de vencimento inválidos → ignorar ou sinalizar produto 
+
+
+Fluxo Principal: 
+
+Usuário acessa a funcionalidade  
+
+Sistema busca produtos próximos do vencimento  
+
+Sistema exibe a lista com informações relevantes 
+
+
+Fluxo Alternativo: 
+
+Lista vazia → exibir mensagem “nenhum produto próximo do vencimento”  
+
+Erro no sistema → exibir mensagem de erro 
+
+
+História de Usuário:  Como usuário, quero identificar produtos vencidos para não utilizá-los. 
+
+
+Descrição : 
+Permite ao usuário visualizar produtos que já estão vencidos para evitar seu uso. 
+
+
+Regras de Negócio : 
+
+O sistema deve exibir produtos com data de vencimento expirada  
+
+Cada produto deve mostrar nome, data de vencimento e quantidade  
+
+Produtos vencidos devem ser claramente identificados  
+
+A lista deve estar atualizada 
+
+
+Casos de Erro : 
+
+Erro ao carregar produtos → mostrar mensagem de erro  
+
+Nenhum produto vencido → informar ao usuário  
+
+Dados de vencimento inválidos → ignorar ou sinalizar produto 
+
+
+Fluxo Principal: 
+
+Usuário acessa a funcionalidade  
+
+Sistema busca produtos vencidos  
+
+Sistema exibe a lista 
+
+
+Fluxo Alternativo: 
+
+Lista vazia → exibir mensagem “nenhum produto vencido”  
+
+Erro no sistema → exibir mensagem de erro 
+ 
+
+ 
+Historia usuário:  Como usuário, quero buscar produtos pelo nome para facilitar a localização. 
+
+Descrição : 
+
+Permite ao usuário pesquisar produtos pelo nome para encontrá-los rapidamente. 
+
+
+Objetivo: 
+Facilitar a localização de produtos de forma rápida e eficiente. 
+
+
+Regras de Negócio : 
+
+O sistema deve permitir busca por nome do produto  
+
+A busca deve aceitar correspondência parcial  
+
+O sistema deve exibir os resultados encontrados  
+
+A lista deve atualizar conforme a busca 
+
+ 
+Casos de Erro: 
+
+Erro na busca → mostrar mensagem de erro  
+
+Nenhum resultado encontrado → informar ao usuário 
+
+
+Fluxo Principal: 
+
+Usuário digita o nome do produto  
+
+Sistema realiza a busca  
+
+Sistema exibe os resultados 
+
+ 
+Fluxo Alternativo: 
+
+Nenhum resultado → exibir mensagem “nenhum produto encontrado”  
+
+Erro no sistema → exibir mensagem de erro 
+
+
+Historia usuário:  Como usuário, quero receber alertas de vencimento para agir rapidamente. 
+
+ 
+
+Descrição: 
+
+ Permite ao usuário receber notificações sobre produtos próximos do vencimento. 
+
+
+
+Regras de Negócio : 
+
+O sistema deve gerar alertas para produtos próximos do vencimento  
+
+O prazo do alerta deve ser configurável (ex: 7 dias antes)  
+
+O alerta deve exibir nome do produto e data de vencimento  
+
+O usuário deve conseguir visualizar os alertas 
+
+
+Casos de Erro : 
+
+Falha ao gerar alertas → informar erro  
+
+Nenhum produto próximo do vencimento → não gerar alertas 
+
+
+Fluxo Principal: 
+
+Sistema identifica produtos próximos do vencimento  
+
+Sistema gera alerta  
+
+Usuário recebe e visualiza o alerta 
+
+
+Fluxo Alternativo: 
+
+Nenhum produto elegível → não gerar alerta  
+
+Erro no sistema → exibir mensagem de erro 
+
+ 
+
+ 
 
