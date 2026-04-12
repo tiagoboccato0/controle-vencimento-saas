@@ -43,6 +43,7 @@ Muitos estabelecimentos realizam o controle de validade de forma manual, o que p
 - Tiago Boccato Barbosa - RA: 1726105234
 - Jennifer Souza de Oliveira - RA: 926112013  
 - Paloma Dalila de Jesus Duarte Amorim Santos - RA: 1726107086
+- Ariana Barbosa Costa - RA: 926112800
 - Nome Completo - RA: 
 
 - ------------------------------------------------
