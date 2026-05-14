@@ -44,7 +44,10 @@ Muitos estabelecimentos realizam o controle de validade de forma manual, o que p
 - Jennifer Souza de Oliveira - RA: 926112013  
 - Paloma Dalila de Jesus Duarte Amorim Santos - RA: 1726107086
 - Ariana Barbosa Costa - RA: 926112800
-- Nome Completo - RA: 
+- GABRIEL CELESTINO ARAUJO - RA: 925208181
+
+##LINK do Figma
+https://www.figma.com/slides/x2cCPVD4P5D7rrj6I0cTR3
 
 - ------------------------------------------------
 
