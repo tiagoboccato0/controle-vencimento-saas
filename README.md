@@ -46,7 +46,7 @@ Muitos estabelecimentos realizam o controle de validade de forma manual, o que p
 - Ariana Barbosa Costa - RA: 926112800
 - GABRIEL CELESTINO ARAUJO - RA: 925208181
 
-##LINK do Figma
+## LINK do Figma
 https://www.figma.com/slides/x2cCPVD4P5D7rrj6I0cTR3
 
 - ------------------------------------------------
