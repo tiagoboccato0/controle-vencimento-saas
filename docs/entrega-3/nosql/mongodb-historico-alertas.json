@@ -1,0 +1,15 @@
+{
+  "usuario_id": 1,
+  "produto_id": 15,
+  "nome_produto": "Leite Integral",
+  "tipo_alerta": "vencimento_proximo",
+  "mensagem": "O produto Leite Integral vence em 3 dias.",
+  "canal": "email",
+  "status": "enviado",
+  "data_envio": "2026-06-16 10:30:00",
+  "detalhes": {
+    "data_validade": "2026-06-19",
+    "dias_para_vencer": 3,
+    "observacao": "Registro de histórico de alerta enviado."
+  }
+}

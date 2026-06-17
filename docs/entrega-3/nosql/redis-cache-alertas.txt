@@ -1,0 +1,16 @@
+Estrutura Redis proposta para cache temporário de alertas
+
+chave: alerta:produto:15
+valor: Produto vence em 3 dias
+tempo de expiração: 86400 segundos
+
+Finalidade:
+O Redis pode ser usado para guardar temporariamente alertas de produtos próximos do vencimento.
+
+Neste exemplo, a chave alerta:produto:15 representa um alerta relacionado ao produto de id 15.
+
+O valor informa a mensagem do alerta: Produto vence em 3 dias.
+
+O tempo de expiração é de 86400 segundos, que equivale a 24 horas.
+
+Depois desse tempo, a informação pode expirar automaticamente. Isso ajuda o sistema a evitar consultas repetidas ao banco de dados principal.

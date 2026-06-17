@@ -1,0 +1,12 @@
+flowchart LR
+    usuario[Usuário]
+    frontend[Interface Web / Protótipo Figma]
+    backend[API Back-end]
+    mysql[(Banco MySQL)]
+    notificacao[Serviço de Notificação]
+
+    usuario --> frontend
+    frontend --> backend
+    backend --> mysql
+    backend --> notificacao
+    notificacao --> usuario

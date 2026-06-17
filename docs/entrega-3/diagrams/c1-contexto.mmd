@@ -1,0 +1,10 @@
+flowchart LR
+    usuario[Usuário]
+    sistema[Sistema Controle de Vencimento]
+    banco[(Banco de Dados)]
+    notificacao[Serviço de Notificação]
+
+    usuario --> sistema
+    sistema --> banco
+    sistema --> notificacao
+    notificacao --> usuario

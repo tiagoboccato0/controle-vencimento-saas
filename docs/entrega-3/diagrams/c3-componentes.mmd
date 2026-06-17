@@ -1,0 +1,29 @@
+flowchart TD
+    frontend[Interface Web / Protótipo Figma]
+    api[API Back-end]
+
+    frontend --> api
+
+    subgraph modulos[Módulos da API Back-end]
+        direction LR
+        usuarios[Módulo de Usuários]
+        produtos[Módulo de Produtos]
+        categorias[Módulo de Categorias]
+        alertas[Módulo de Alertas]
+        notificacoes[Módulo de Notificações]
+    end
+
+    api --> usuarios
+    api --> produtos
+    api --> categorias
+    api --> alertas
+    api --> notificacoes
+
+    usuarios --> dados[Módulo de Acesso a Dados]
+    produtos --> dados
+    categorias --> dados
+    alertas --> dados
+    notificacoes --> dados
+
+    dados --> mysql[(Banco MySQL)]
+    notificacoes --> servico[Serviço de Notificação]
